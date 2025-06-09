@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>سپرده گذاری در بلاکچین</title>
+<link href="style.css.css" rel="stylesheet"/>
+<style>
+.chart-embed {
+  position: absolute;
+  right: 20px;
+  width: 48%;
+  height: 250px;
+  border-radius: 0.8cm;
+  z-index: -1;
+}
+.chart-btc {
+  top: 48%;
+}
+.chart-eth {
+  top: 150%;
+}
+</style>
+</head>
+<body>
+<!-- چارت بیت‌کوین -->
+<div class="tradingview-widget-container chart-embed chart-btc">
+  <div id="tradingview_btc"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+    new TradingView.widget({
+      "container_id": "tradingview_btc",
+      "width": "100%",
+      "height": "100%",
+      "symbol": "BTCUSD",
+      "interval": "D",
+      "timezone": "Etc/UTC",
+      "theme": "dark",
+      "style": "2",
+      "locale": "en",
+      "toolbar_bg": "#f1f3f6",
+      "enable_publishing": false,
+      "hide_top_toolbar": true,
+      "save_image": false,
+      "studies": [],
+      "show_popup_button": false,
+    });
+  </script>
+</div>
+
+<!-- چارت اتریوم -->
+<div class="tradingview-widget-container chart-embed chart-eth">
+  <div id="tradingview_eth"></div>
+  <script type="text/javascript">
+    new TradingView.widget({
+      "container_id": "tradingview_eth",
+      "width": "100%",
+      "height": "98%",
+      "symbol": "ETHUSD",
+      "interval": "D",
+      "timezone": "Etc/UTC",
+      "theme": "dark",
+      "style": "2",
+      "locale": "en",
+      "toolbar_bg": "#f1f3f6",
+      "enable_publishing": false,
+      "hide_top_toolbar": true,
+      "save_image": false,
+      "studies": [],
+      "show_popup_button": false
+    });
+  </script>
+</div>
+
+<!-- منوی ناوبری -->
+<div class="main-content">
+<nav class="navbar" style="background-color: #f0a824;">
+<li><a href="e:\جشنواره خارزمی\home\خانه\index.html">خانه</a></li>
+<li><a href="#2">داشبورد</a></li>
+<li><a href="e:\جشنواره خارزمی\home\درباره ما\index.html">درباره ما</a></li>
+<li><a href="e:\جشنواره خارزمی\home\تماس با ما\index.html">تماس با کارشناسان </a></li>
+<h2 class="PPP">P.BLACKCHAIN</h2>
+</nav>
+
+<!-- زیر منو -->
+<div class="submenu">
+<div class="submenu-item">
+<h3>درباره بلاکچین</h3>
+<p>بلاکچین یک تکنولوژی جدید است که به شما امکان می‌دهد تراکنش‌های امن و شفاف انجام دهید.</p>
+</div>
+<div class="submenu-item">
+<h3>مراحل سرمایه‌گذاری</h3>
+<p>برای شروع سرمایه‌گذاری در بلاکچین، کافیست مراحل ساده ما را دنبال کنید.</p>
+</div>
+<div class="submenu-item">
+<h3>پشتیبانی</h3>
+<p>اگر سوالی دارید، تیم پشتیبانی ما آماده است تا به شما کمک کند.</p>
+</div>
+</div>
+</div>
+
+<!-- جدول قیمت و استیکینگ -->
+<div class="container">
+<h1>قیمت و اطلاعات استیکینگ</h1>
+<table>
+<thead>
+<tr>
+<th>ردیف</th>
+<th>نام ارز</th>
+<th>قیمت (USD)</th>
+<th>نرخ استیکینگ (%)</th>
+</tr>
+</thead>
+<tbody class="table">
+<!-- ردیف‌های جدول با دو ستون حجم معاملات و ارزش بازار حذف شده‌اند -->
+<tr><th>1</th><th>بیت‌کوین BTC</th><th>82086.27</th><th>2.30%</th></tr>
+<tr><th>2</th><th>اتریوم ETH</th><th>2163.15</th><th>4.85%</th></tr>
+<tr><th>3</th><th>سولانا SOL</th><th>127.43</th><th>6.45%</th></tr>
+<tr><th>4</th><th>سویی SUI</th><th>2.26</th><th>4.10%</th></tr>
+<tr><th>5</th><th>بایننس کوین BNB</th><th>633.34</th><th>5.00%</th></tr>
+<tr><th>6</th><th>کاردانو ADA</th><th>0.668</th><th>7.50%</th></tr>
+<tr><th>7</th><th>ترون TRX</th><th>0.27</th><th>5.85%</th></tr>
+<tr><th>8</th><th>پولکادات DOT</th><th>40.00</th><th>11.00%</th></tr>
+<tr><th>9</th><th>آپتوس APT</th><th>5.49</th><th>9.50%</th></tr>
+<tr><th>10</th><th>دوج کوین DOGE</th><th>0.15</th><th>5.20%</th></tr>
+<tr><th>11</th><th>ریپل XRP</th><th>0.50</th><th>4.75%</th></tr>
+<tr><th>12</th><th>لایت‌کوین LTC</th><th>95.20</th><th>3.90%</th></tr>
+<tr><th>13</th><th>تزوس XTZ</th><th>1.20</th><th>5.50%</th></tr>
+<tr><th>14</th><th>نیر NEAR</th><th>3.00</th><th>6.80%</th></tr>
+<tr><th>15</th><th>آوالانچ AVAX</th><th>20.10</th><th>7.00%</th></tr>
+<tr><th>16</th><th>فانتوم FTM</th><th>0.60</th><th>8.20%</th></tr>
+<tr><th>17</th><th>اکسی اینفینیتی AXS</th><th>7.30</th><th>5.90%</th></tr>
+<tr><th>18</th><th>چیلیز CHZ</th><th>0.12</th><th>6.10%</th></tr>
+<tr><th>19</th><th>پنکیک‌سواپ CAKE</th><th>2.45</th><th>7.20%</th></tr>
+<tr><th>20</th><th>سوشی SUSHI</th><th>1.10</th><th>5.50%</th></tr>
+<tr><th>21</th><th>متیک MATIC</th><th>0.85</th><th>4.90%</th></tr>
+<tr><th>22</th><th>انجین ENJ</th><th>0.33</th><th>5.25%</th></tr>
+<tr><th>23</th><th>الگوراند ALGO</th><th>0.24</th><th>6.40%</th></tr>
+<tr><th>24</th><th>زیکش ZEC</th><th>28.00</th><th>3.75%</th></tr>
+<tr><th>25</th><th>مونرو XMR</th><th>160.00</th><th>4.50%</th></tr>
+<tr><th>26</th><th>گراف GRT</th><th>0.21</th><th>6.00%</th></tr>
+<tr><th>27</th><th>رن REN</th><th>0.14</th><th>5.35%</th></tr>
+<tr><th>28</th><th>آیوتا IOTA</th><th>0.28</th><th>5.10%</th></tr>
+<tr><th>29</th><th>دیسنترالند MANA</th><th>0.45</th><th>5.75%</th></tr>
+<tr><th>30</th><th>سندباکس SAND</th><th>0.60</th><th>6.20%</th></tr>
+</tbody>
+</table>
+</div>
+</body>
+</html>
